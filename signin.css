@@ -1,0 +1,60 @@
+body{
+    background: url(./img/intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+.container{
+    margin-top: 120px;
+}
+h3{
+    font-size: 40px;
+}
+.card{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 300px;
+}
+.signin-icon{
+    color: var(--mainBlue);
+    font-size: 50px;
+    margin-left: 8px;
+}
+.signin-icon:hover{
+    color: var(--mainWhite);
+    cursor: pointer;
+}
+.social_icon{
+    position: absolute;
+    top: -32px;
+    left: 180px;
+}
+.input-group{
+    margin-top: 15px;
+}
+.input-icon{
+    color: var(--mainBlue);
+    background-color: inherit;
+    font-size: 25px;
+    border: none;
+    width: 50px;
+}
+.input-text{
+width: 290px;
+background-color: inherit;
+border: none;
+color: whitesmoke;
+margin: 10px 0px 10x 0px;
+}
+.check-box{
+   width: 19px;
+   height: 19px;
+   margin-right: 5px;
+}
+.signin-btn{
+    background-color: var(--mainBlue);
+    color: var(--mainWhite);
+    margin-right: 20px;
+}
+
