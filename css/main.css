@@ -193,6 +193,7 @@ border-radius: 0 !important;
   padding: 0 10px 0 10px;
   clip-path: polygon(15% 0, 85% 0,100% 100%,0 100%);
   transition: all 1s linear;
+  cursor: pointer;
 }
 .car-value:hover{
   clip-path: polygon(0% 0,100% 0,100% 100%,0 100%);
